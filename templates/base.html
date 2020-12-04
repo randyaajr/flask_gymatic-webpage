@@ -31,12 +31,12 @@
         </div>
         <nav class="canvas-menu mobile-menu">
             <ul>
-                <li><a href="{ url_for('index.html') }">Home</a></li>
-                <li><a href="{ url_for('about.html') }">About Us</a></li>
-                <li><a href="{ url_for('classes.html') }">Classes</a></li>
-                <li><a href="{ url_for('services.html') }">Services</a></li>
-                <li><a href="{ url_for('team.html') }">Our Team</a></li>
-                <li><a href="{ url_for('contact.html') }">Contact</a></li>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About Us</a></li>
+                <li><a href="{{ url_for('classes') }}">Classes</a></li>
+                <li><a href="{{ url_for('services') }}">Services</a></li>
+                <li><a href="{{ url_for('team') }}">Our Team</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
             </ul>
         </nav>
         <div id="mobile-menu-wrap"></div>
@@ -55,7 +55,7 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="logo">
-                        <a href="{ url_for('index.html') }">
+                        <a href="{{ url_for('index') }}">
                             <img src="../static/img/logo.png" alt="">
                         </a>
                     </div>
@@ -63,12 +63,12 @@
                 <div class="col-lg-6">
                     <nav class="nav-menu">
                         <ul>
-                            <li class="active"><a href="{ url_for('index.html') }">Home</a></li>
-                            <li><a href="{ url_for('about.html') }">About Us</a></li>
-                            <li><a href="{ url_for('classes.html') }">Classes</a></li>
-                            <li><a href="{ url_for('services.html') }">Services</a></li>
-                            <li><a href="{ url_for('team.html') }">Our Team</a></li>
-                            <li><a href="{ url_for('contact.html') }">Contact</a></li>
+                            <li class="active"><a href="{{ url_for('index') }}">Home</a></li>
+                            <li><a href="{{ url_for('about') }}">About Us</a></li>
+                            <li><a href="{{ url_for('classes') }}">Classes</a></li>
+                            <li><a href="{{ url_for('services') }}">Services</a></li>
+                            <li><a href="{{ url_for('team') }}">Our Team</a></li>
+                            <li><a href="{{ url_for('contact') }}">Contact</a></li>
                         </ul>
                     </nav>
                 </div>

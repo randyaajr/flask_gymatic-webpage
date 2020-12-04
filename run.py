@@ -32,7 +32,7 @@ def team():
 
 @app.route("/contact")
 def contact():
-    render_template("contact.html")
+    return render_template("contact.html")
 
 
 if __name__ == "__main__":
