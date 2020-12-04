@@ -21,13 +21,18 @@ def classes():
 
 
 @app.route("/services")
-def careers():
+def services():
     return render_template("services.html")
 
 
 @app.route("/team")
 def team():
     return render_template("team.html")
+
+
+@app.route("/contact")
+def contact():
+    render_template("contact.html")
 
 
 if __name__ == "__main__":
