@@ -20,16 +20,6 @@ def classes():
     return render_template("classes.html")
 
 
-@app.route("/services")
-def services():
-    return render_template("services.html")
-
-
-@app.route("/team")
-def team():
-    return render_template("team.html")
-
-
 @app.route("/contact")
 def contact():
     return render_template("contact.html")
