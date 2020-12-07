@@ -102,8 +102,9 @@
                         <div class="fa-logo">
                             <a href="#"><img src="../static/img/logo.png" alt=""></a>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore dolore magna aliqua endisse ultrices gravida lorem.</p>
+                        <p>
+                            Helping you reach your fitness goals - whether you are starting your fitness journey, or taking your health and wellness to the next level, we're here for you. With a beautiful gym space, high quality trainers, and flexible schedules, Gymatic offers an exclusive experience, with a non-intimidating vibe. All are welcome.
+                        </p>
                         <div class="fa-social">
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
@@ -117,10 +118,10 @@
                     <div class="fs-widget">
                         <h4>Useful links</h4>
                         <ul>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Classes</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="{{ url_for('about') }}" target="_blank">About</a></li>
+                            <li><a href="https://www.healthline.com/health/fitness-exercise/best-blogs-of-the-year#6" target="_blank">Blog</a></li>
+                            <li><a href="{{ url_for('classes') }}" target="_blank">Classes</a></li>
+                            <li><a href="{{ url_for('contact') }}" target="_blank">Contact</a></li>
                         </ul>
                     </div>
                 </div>
