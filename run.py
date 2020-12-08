@@ -24,7 +24,7 @@ def classes():
     return render_template("classes.html")
 
 
-@app.route("/contact")
+@app.route("/contact", methods=["GET", "POST"])
 def contact():
     return render_template("contact.html")
 
