@@ -1,9 +1,12 @@
 import os
 import json
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, flash
+if os.path.exists("env.py"):
+    import env
 
 
 app = Flask(__name__)
+app.secret_key = os.environ.get("SECRET_KEY")
 
 
 @app.route("/")
@@ -27,7 +30,8 @@ def classes():
 @app.route("/contact", methods=["GET", "POST"])
 def contact():
     if request.method == "POST":
-        print("Did this work?")
+        flash("Thanks {}, for reaching out to us. We will contact you soon!".format(
+            request.form.get("name")))
     return render_template("contact.html")
 
 
