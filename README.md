@@ -22,7 +22,9 @@ Will be heroku
 ## Wireframes
 
 ## Acknowledgements
-
-
+[Unplash](https://unsplash.com/)
+[Clipart](https://www.clipartkey.com/)
+[Google - for profile photos](https://www.google.ca/)
 
 #### Live
+[Gymatic](https://gymatic.herokuapp.com/)
