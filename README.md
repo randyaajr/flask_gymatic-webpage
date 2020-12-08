@@ -49,8 +49,8 @@ Github pages doesn't really like flask designed sites.. So i used Heroku!
 ![alt text](static/img/readme/gym2.PNG)
 ![alt text](static/img/readme/gym3.PNG)
 ## Acknowledgements
-[Unplash](https://unsplash.com/)
-[Clipart](https://www.clipartkey.com/)
+[Unplash](https://unsplash.com/)<br>
+[Clipart](https://www.clipartkey.com/)<br>
 [Google - for profile photos](https://www.google.ca/)
 
 #### Live
