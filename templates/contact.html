@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
+<link rel="stylesheet" href=".../static/css/reponse.css">
 <!-- Breadcrumb Section Begin -->
     <section class="breadcrumb-section set-bg" data-setbg="../static/img/breadcrumb-bg.jpg">
         <div class="container">
@@ -46,6 +47,17 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="leave-comment">
+
+                        {% with messages = get_flashed_messages() %}
+                            {% if messages %}
+                                <ul class="text-white list-unstyled pb-5">
+                                    {% for message in messages %}
+                                    <li>{{ message }}</li>
+                                    {% endfor %}
+                                </ul>
+                             {% endif %}
+                          {% endwith %}
+
                         <form method="POST" action="#">
                             <input type="text" placeholder="Name" name="name">
                             <input type="text" placeholder="Email" name="email">
