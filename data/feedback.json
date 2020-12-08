@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Zahra Marquez",
+        "description": "Some of the best poeple on the planet work here. They have everything one could need to reach their persomal goals!",
+        "image_source": "https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg-1024x683.jpg"
+    },
+    {
+        "name": "Marcela Gomez",
+        "description": "What an amazing place to spend time.. They have everything I needed to get in shape ;).",
+        "image_source": "../static/img/testimonial/testimonial-2.jpg"
+    },
+    {
+        "name": "Kayla Mcnee",
+        "description": "Great place to work out.",
+        "image_source": ""
+    },
+    {
+        "name": "Kyle Ola",
+        "description": "This is not your typical gym. The staff here really go beyond! Hands down, the best place in Toronto..",
+        "image_source": ""
+    },
+     {
+        "name": "Micheal Wallace",
+        "description": "This is not your typical gym. The staff here really go beyond! Hands down, the best place in Toronto..",
+        "image_source": ""
+    }
+]
