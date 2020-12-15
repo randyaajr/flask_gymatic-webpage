@@ -1,4 +1,4 @@
-![alt text](static/img/logo1.png)
+![alt text](static/img/logo1.png =120x120)
 
 # GYMATIC
 ---
