@@ -334,7 +334,11 @@ ol {
 }
 
 .logo a {
-	display: inline-block;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border:2px solid #f36100;
 }
 
 .nav-menu {
@@ -1141,10 +1145,6 @@ ol {
 
 .fs-about .fa-logo {
 	margin-bottom: 30px;
-}
-
-.fs-about .fa-logo a {
-	display: inline-block;
 }
 
 .fs-about p {
