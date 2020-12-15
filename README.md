@@ -1,4 +1,4 @@
-![alt text](static/img/logo.png)
+![alt text](static/img/logo1.png)
 
 # GYMATIC
 ---
