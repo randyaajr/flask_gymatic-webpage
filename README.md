@@ -37,6 +37,29 @@ GYMATIC was created for a class project. Here I demonstrate what I have learned 
 ## Deployment
 Github pages doesn't really like flask designed sites.. So i used Heroku!
 
+Installing Flask
+```
+gitpod /workspace/thorin-and-co_flask-app $ pip3 install Flask
+```
+Starting Flask
+```
+gitpod /workspace/thorin-and-co_flask-app $ python3 run.py
+```
+Installing Heroku
+```
+gitpod /workspace/thorin-and-co_flask-app $ npm install -g heroku
+```
+Heroku Login
+```
+gitpod /workspace/thorin-and-co_flask-app $ heroku login -i
+```
+```
+heroku: Enter your login credentials
+Email: randyaajrsp@gmail.com
+Password: *****************
+Logged in as randyaajrsp@gmail.com
+```
+
 ## User Stories
 > John Smith<br>
 > *As a pretty distracted person, I felt that this site was easy traverse.*
