@@ -1,5 +1,4 @@
-![alt text](static/img/logo1.png =120x120)
-<img src="static/img/logo1.png" alt="alt text" width="120px" height="120px">
+<img src="static/img/logo1.png" alt="alt text" width="50px" height="50px">
 
 # GYMATIC
 ---
