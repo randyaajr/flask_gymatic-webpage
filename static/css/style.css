@@ -3253,5 +3253,12 @@ ol {
 	}
 	.search-model-form input {
 		font-size: 28px;
-	}
+    }
+    .logo a {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border:2px solid #f36100;
+}
 }
