@@ -219,114 +219,29 @@
                 </div>
             </div>
             <div class="ts_slider owl-carousel">
+                {% for member in feedback %}
                 <div class="ts_item">
                     <div class="row">
                         <div class="col-lg-12 text-center">
                             <div class="ti_pic">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-vRs9Kw_5WAKKiVB4Y674xIKgz_2sW_6wyg&usqp=CAU" alt="">
+                                <img src="{{ member['image_source'] }}" alt="">
                             </div>
                             <div class="ti_text">
                                 <p>
-                                    {{ feedback[0]["description"] }}
+                                    {{ member["description"] }}
                                 </p>
-                                <h5>{{ feedback[0]["name"] }}</h5>
+                                <h5>{{ member["name"] }}</h5>
                                 <div class="tt-rating">
+                                {% for stars in range(member["stars"]) %}    
                                     <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
+                                {% endfor %}    
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="ts_item">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <div class="ti_pic">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyDX1Jo7Le1SF7LGxeZUbMWO-v-v5aDk7dJQ&usqp=CAU" alt="">
-                            </div>
-                            <div class="ti_text">
-                                <p>
-                                    {{ feedback[4]["description"] }}
-                                </p>
-                                <h5>{{ feedback[4]["name"] }}</h5>
-                                <div class="tt-rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="ts_item">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <div class="ti_pic">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbz5_pI5GcDEg7DTHG5CoJXWkz0hz4eCeOwg&usqp=CAU" alt="">
-                            </div>
-                            <div class="ti_text">
-                                <p>
-                                    {{ feedback[1]["description"] }}
-                                </p>
-                                <h5>{{ feedback[1]["name"] }}</h5>
-                                <div class="tt-rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="ts_item">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <div class="ti_pic">
-                                <img src="data:image/jpeg;base64,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" alt="">
-                            </div>
-                            <div class="ti_text">
-                                <p>
-                                    {{ feedback[2]["description"] }}
-                                </p>
-                                <h5>{{ feedback[2]["name"] }}</h5>
-                                <div class="tt-rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="ts_item">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <div class="ti_pic">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGxt-M73ujXDaG_1ZYeCF1b-O0fRI3OcvZOA&usqp=CAU" alt="">
-                            </div>
-                            <div class="ti_text">
-                                <p>
-                                    {{ feedback[3]["description"] }}
-                                </p>
-                                <h5>{{ feedback[3]["name"] }}</h5>
-                                <div class="tt-rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
+                {% endfor %}
             </div>
         </div>
     </section>
