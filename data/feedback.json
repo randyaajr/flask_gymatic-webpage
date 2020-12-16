@@ -2,26 +2,31 @@
     {
         "name": "Zahra Marquez",
         "description": "Some of the best poeple on the planet work here. They have everything one could need to reach their persomal goals!",
-        "image_source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEL1oAUnFyPH3ccPSNhXIisuHR1y28alkXZA&usqp=CAU"
+        "image_source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEL1oAUnFyPH3ccPSNhXIisuHR1y28alkXZA&usqp=CAU",
+        "stars": 5
     },
     {
         "name": "Marcela Gomez",
         "description": "What an amazing place to spend time.. They have everything I needed to get in shape ;).",
-        "image_source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbz5_pI5GcDEg7DTHG5CoJXWkz0hz4eCeOwg&usqp=CAU"
+        "image_source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbz5_pI5GcDEg7DTHG5CoJXWkz0hz4eCeOwg&usqp=CAU",
+        "stars": 3
     },
     {
         "name": "Kayla Mcnee",
         "description": "Great place to work out.",
-        "image_source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIOeL8T2dI2UIlfzvuhuTtF0nZfKh9juJIpw&usqp=CAU"
+        "image_source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIOeL8T2dI2UIlfzvuhuTtF0nZfKh9juJIpw&usqp=CAU",
+        "stars": 4
     },
     {
         "name": "Kyle Ola",
         "description": "This is not your typical gym. The staff here really go beyond! Hands down, the best place in Toronto..",
-        "image_source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGxt-M73ujXDaG_1ZYeCF1b-O0fRI3OcvZOA&usqp=CAU"
+        "image_source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGxt-M73ujXDaG_1ZYeCF1b-O0fRI3OcvZOA&usqp=CAU",
+        "stars": 5
     },
      {
         "name": "Micheal Wallace",
         "description": "This is not your typical gym. The staff here really go beyond! Hands down, the best place in Toronto..",
-        "image_source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyDX1Jo7Le1SF7LGxeZUbMWO-v-v5aDk7dJQ&usqp=CAU"
+        "image_source": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyDX1Jo7Le1SF7LGxeZUbMWO-v-v5aDk7dJQ&usqp=CAU",
+        "stars": 5
     }
 ]
